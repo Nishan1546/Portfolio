@@ -1,77 +1,16 @@
-🌐 3D Portfolio Website
+# React + Vite
 
-A modern, interactive 3D portfolio website built using React.js and Tailwind CSS. This project showcases projects, skills, and experience through smooth animations, reusable components, and an engaging user interface with a strong focus on performance and responsiveness.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✨ Features
+Currently, two official plugins are available:
 
-⚛️ React.js with component-based architecture
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🎨 Tailwind CSS for modern and responsive styling
+## React Compiler
 
-🌍 Interactive 3D-inspired UI elements
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🚀 Smooth animations, transitions, and loaders
+## Expanding the ESLint configuration
 
-🧩 Reusable and well-structured components
-
-📱 Fully responsive across all devices
-
-🗂️ Project Structure
-3D_PORTFOLIO/
-│
-├── public/              # Static assets
-├── src/
-│   ├── components/      # Reusable UI components
-│   ├── sections/        # Page-level sections
-│   ├── constants/       # Static data and configs
-│   ├── App.jsx          # Main app component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-│
-├── package.json
-├── index.html
-└── README.md
-🛠️ Tech Stack
-
-React.js
-
-Tailwind CSS
-
-JavaScript (ES6+)
-
-Vite
-
-🚀 Getting Started
-
-Follow these steps to run the project locally:
-
-1️⃣ Clone the repository
-git clone https://github.com/your-username/3D-Portfolio.git
-
-2️⃣ Navigate to the project folder
-cd 3D-Portfolio
-
-3️⃣ Install dependencies
-npm install
-
-4️⃣ Start the development server
-npm run dev
-
-
-The app will run at:
-👉 http://localhost:5173
-
-🎯 Purpose
-
-This portfolio was built to demonstrate my frontend development skills, understanding of modern UI/UX, and ability to create visually engaging web applications using React and Tailwind CSS.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-Feel free to fork the repository and submit a pull request.
-
-📬 Contact
-
-If you’d like to connect or provide feedback, feel free to reach out.
-
-⭐ If you like this project, don’t forget to star the repository!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
